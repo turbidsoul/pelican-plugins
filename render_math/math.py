@@ -205,8 +205,8 @@ def process_settings(settings):
 
     # Source for MathJax: default (below) is to automatically determine what protocol to use
     _MATHJAX_SETTINGS['source'] = """'https:' == document.location.protocol
-                ? 'https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
-                : 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'"""
+                ? 'https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML-full'
+                : 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML-full'"""
 
     # This next setting controls whether the mathjax script should be automatically
     # inserted into the content. The mathjax script will not be inserted into
